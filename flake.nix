@@ -6,9 +6,15 @@
       path = ./go;
       description = "Go devshell: gopls, delve, golangci-lint";
     };
+
     templates.lean = {
       path = ./lean;
       description = "Lean 4 devshell: elan (lean, lake)";
+    };
+
+    templates.python = {
+      path = ./python;
+      description = "Python devshell: uv, ruff";
     };
   };
 }
